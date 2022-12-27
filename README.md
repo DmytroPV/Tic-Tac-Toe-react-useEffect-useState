@@ -1,5 +1,5 @@
 ## Tic-Tac-Toe-Game-using-React-Hooks
-#### using in the project - react hooks useState, useEffect, styled-components
+### using in the project - react hooks useState, useEffect, styled-components
 
 - useEffect: another implementation option can be to transfer to separate functions (setCellset(color), setCounter, setCross_zero(winners_move)) with useEffect and include them in useCallback, or create a new state with an object of the values of the winning indices and the value of cell[а] and use the dependencies in these functions. this way we would get a simple useEffect, also in the case of deriving functions from useEffect, you can create one state object for the points counter.
 - Keys: Here, indices are used as keys because this list (array) is not dynamic. In other projects where the size may change or sorting will occur, you need to use "id" for keys.
